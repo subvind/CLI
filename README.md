@@ -1,6 +1,16 @@
 inom
 ========
 
+```
+git add .
+git commit -m ""
+git push
+
+npm publish
+
+npm i inom -g
+```
+
 start command:
 ```
 $ inom init
