@@ -6,5 +6,6 @@ describe('hello world', () => {
   .command(['hello:world'])
   .it('runs hello world cmd', ctx => {
     expect(ctx.stdout).to.contain('hello world!')
+    expect(ctx.stdout).to.contain('current directory')
   })
 })

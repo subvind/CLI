@@ -1,7 +1,7 @@
 import {Args, Command, Flags} from '@oclif/core'
 
-export default class Hello extends Command {
-  static description = 'Say hello'
+export default class Subscribe extends Command {
+  static description = 'subscribe to a "bag.inom" code broadcast'
 
   static examples = [
     `$ inom hello friend --from oclif
@@ -18,7 +18,7 @@ hello friend from oclif! (./src/commands/hello/index.ts)
   }
 
   async run(): Promise<void> {
-    const {args, flags} = await this.parse(Hello)
+    const {args, flags} = await this.parse(Subscribe)
 
     this.log(`hello ${args.person} from ${flags.from}! (./src/commands/hello/index.ts)`)
   }

@@ -1,23 +1,42 @@
 inom
 ========
+a command line interface to inomlang...
 
+part of ecosystem...
+- [fbd :: sync :: subvind/inomlang](https://github.com/subvind/inomlang)
+- [www :: top :: subvind/ucimecu](https://github.com/subvind/ucimecu)
+- [server :: backend :: subvind/isisis](https://github.com/subvind/isisis)
+- [client :: frontend :: subvind/autoide](https://github.com/subvind/autoide)
+- [cli :: npm :: subvind/inom](https://github.com/subvind/inom)
+
+terminology:
+- evelops are git repositories
+- many evelops go into a bag
+- bags are hosted on http servers
+- envelops have a main.inom file where a main function exists
+
+quick start:
 ```
-git add .
-git commit -m ""
-git push
+# begin
+$ npm install --gloab inom
 
-npm publish
-
-npm i inom -g
+# first
+$ inom --help
 ```
 
-start command:
+init project:
 ```
-$ inom init
+# jump to a new directory
+$ cd ~/Projects
+$ mkdir example
+$ cd ~/Projects/example
+
+# initialize project
+$ inom irst bag init
 ```
 generates:
 ```
-$ touch auto.inom
+$ touch bag.inom
 <
   :name:~ "something",
   :template:~ "amqp",
@@ -29,18 +48,18 @@ $ touch auto.inom
 >
 ```
 
-setup command:
+install a module:
 ```
-$ inom install somedemo
+$ inom irst bag nuzip --bagage=stuff
 ```
 generates:
 ```
 <
   :name:~ "something",
-  :packages:~ <
-    :somestuff:~ "1.1.0",
-    :someexample:~ "1.3.0",
-    :somedemo:~ "1.2.0"
+  :bagages:~ <
+    :stuff:~ "1.1.0",
+    :example:~ "1.3.0",
+    :demo:~ "1.2.0"
   >
 >
 ```
