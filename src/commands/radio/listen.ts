@@ -1,7 +1,7 @@
 import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
-export default class Unzip extends Command {
+export default class Listen extends Command {
   static description = 'Say hello world'
 
   static examples = [

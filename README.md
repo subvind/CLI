@@ -24,15 +24,15 @@ $ npm install --gloab inom
 $ inom --help
 ```
 
-init project:
+init bag:
 ```
 # jump to a new directory
-$ cd ~/Projects
-$ mkdir example
-$ cd ~/Projects/example
+$ cd ~/Inom
+$ mkdir inom_bags
+$ cd ~/Inom/inom_bags
 
 # initialize project
-$ inom irst bag init
+$ inom irst bag create
 ```
 generates:
 ```
@@ -48,18 +48,25 @@ $ touch bag.inom
 >
 ```
 
-install a module:
+install a project into bag:
 ```
-$ inom irst bag nuzip --bagage=stuff
+$ inom irst bag zipper --accept=stuff
+$ inom irst bag zipper --reject=messy
 ```
 generates:
 ```
 <
   :name:~ "something",
-  :bagages:~ <
-    :stuff:~ "1.1.0",
-    :example:~ "1.3.0",
-    :demo:~ "1.2.0"
+  :envelopes:~ <
+    :stuff:~ {
+      :template:~ "amgp"
+    },
+    :example:~ {
+      :template:~ "cli"
+    },
+    :demo:~ {
+      :template:~ "http"
+    }
   >
 >
 ```

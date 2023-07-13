@@ -1,8 +1,8 @@
 import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
-export default class Init extends Command {
-  static description = 'Say hello world'
+export default class Tab extends Command {
+  static description = 'bring "envelop.inom" into visibility' // enum
 
   static examples = [
     `<%= config.bin %> <%= command.id %>

@@ -1,7 +1,7 @@
 import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
-export default class Nuzip extends Command {
+export default class Boombox extends Command {
   static description = 'Say hello world'
 
   static examples = [
