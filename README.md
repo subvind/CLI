@@ -1,42 +1,42 @@
-inom
+inam
 ========
-a command line interface to inomlang...
+a command line interface to inamlang...
 
 part of ecosystem...
-- [fbd :: sync :: subvind/inomlang](https://github.com/subvind/inomlang)
+- [fbd :: sync :: subvind/inamlang](https://github.com/subvind/inamlang)
 - [www :: top :: subvind/ucimecu](https://github.com/subvind/ucimecu)
 - [server :: backend :: subvind/isisis](https://github.com/subvind/isisis)
 - [client :: frontend :: subvind/autoide](https://github.com/subvind/autoide)
-- [cli :: npm :: subvind/inom](https://github.com/subvind/inom)
+- [cli :: npm :: subvind/inam](https://github.com/subvind/inam)
 
 terminology:
 - evelops are git repositories
 - many evelops go into a bag
 - bags are hosted on http servers
-- envelops have a main.inom file where a main function exists
+- envelops have a main.inam file where a main function exists
 
 quick start:
 ```
 # begin
-$ npm install --gloab inom
+$ npm install --gloab inam
 
 # first
-$ inom --help
+$ inam --help
 ```
 
 init bag:
 ```
 # jump to a new directory
-$ cd ~/Inom
-$ mkdir inom_bags
-$ cd ~/Inom/inom_bags
+$ cd ~/inam
+$ mkdir inam_bags
+$ cd ~/inam/inam_bags
 
 # initialize project
-$ inom irst bag create
+$ inam irst bag create
 ```
 generates:
 ```
-$ touch bag.inom
+$ touch bag.inam
 <
   :name:~ "something",
   :template:~ "amqp",
@@ -50,8 +50,8 @@ $ touch bag.inom
 
 install a project into bag:
 ```
-$ inom irst bag zipper --accept=stuff
-$ inom irst bag zipper --reject=messy
+$ inam irst bag zipper --accept=stuff
+$ inam irst bag zipper --reject=messy
 ```
 generates:
 ```

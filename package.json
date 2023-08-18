@@ -1,12 +1,12 @@
 {
-  "name": "inom",
+  "name": "inam",
   "author": "Travis Burandt <travis.burandt@gmail.com> (https://subvind.com)",
   "version": "1.0.0",
   "description": "",
   "homepage": "https://subvind.com",
   "license": "Fair Source 25 (v0.9).",
   "bin": {
-    "inom": "./bin/run"
+    "inam": "./bin/run"
   },
   "main": "dist/index.js",
   "scripts": {
@@ -49,8 +49,8 @@
     "/oclif.manifest.json"
   ],
   "oclif": {
-    "bin": "inom",
-    "dirname": "inom",
+    "bin": "inam",
+    "dirname": "inam",
     "commands": "./dist/commands",
     "plugins": [
       "@oclif/plugin-help",

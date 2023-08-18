@@ -2,7 +2,7 @@ import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
 export default class Folder extends Command {
-  static description = 'config a folder in "envelop.inom"'
+  static description = 'config a folder in "envelop.inam"'
 
   static examples = [
     `<%= config.bin %> <%= command.id %>

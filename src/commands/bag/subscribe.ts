@@ -1,10 +1,10 @@
 import {Args, Command, Flags} from '@oclif/core'
 
 export default class Subscribe extends Command {
-  static description = 'subscribe to a "bag.inom" code broadcast'
+  static description = 'subscribe to a "bag.inam" code broadcast'
 
   static examples = [
-    `$ inom hello friend --from oclif
+    `$ inam hello friend --from oclif
 hello friend from oclif! (./src/commands/hello/index.ts)
 `,
   ]

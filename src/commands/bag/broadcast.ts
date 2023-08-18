@@ -1,10 +1,10 @@
 import {Args, Command, Flags} from '@oclif/core'
 
 export default class Broadcast extends Command {
-  static description = 'broadcast "bag.inom" code over a websocket'
+  static description = 'broadcast "bag.inam" code over a websocket'
 
   static examples = [
-    `$ inom hello friend --from oclif
+    `$ inam hello friend --from oclif
 hello friend from oclif! (./src/commands/hello/index.ts)
 `,
   ]

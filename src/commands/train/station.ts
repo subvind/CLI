@@ -2,7 +2,7 @@ import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
 export default class Station extends Command {
-  static description = '"train.inom" register ... in, out, & recovery'
+  static description = '"train.inam" register ... in, out, & recovery'
 
   static examples = [
     `<%= config.bin %> <%= command.id %>

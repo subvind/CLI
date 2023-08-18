@@ -2,7 +2,7 @@ import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
 export default class Tab extends Command {
-  static description = 'bring "envelop.inom" into visibility' // enum
+  static description = 'bring "envelop.inam" into visibility' // enum
 
   static examples = [
     `<%= config.bin %> <%= command.id %>

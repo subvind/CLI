@@ -2,7 +2,7 @@ import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
 export default class Lift extends Command {
-  static description = 'automatic "bag.inom" pack and carry'
+  static description = 'automatic "bag.inam" pack and carry'
 
   static examples = [
     `<%= config.bin %> <%= command.id %>

@@ -2,7 +2,7 @@ import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
 export default class Carry extends Command {
-  static description = 'run machine code from "bag.inom"'
+  static description = 'run machine code from "bag.inam"'
 
   static examples = [
     `<%= config.bin %> <%= command.id %>

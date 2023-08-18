@@ -1,10 +1,10 @@
 import {Args, Command, Flags} from '@oclif/core'
 
 export default class Roomette extends Command {
-  static description = 'secure "train.inom" private conversations'
+  static description = 'secure "train.inam" private conversations'
 
   static examples = [
-    `$ inom hello friend --from oclif
+    `$ inam hello friend --from oclif
 hello friend from oclif! (./src/commands/hello/index.ts)
 `,
   ]

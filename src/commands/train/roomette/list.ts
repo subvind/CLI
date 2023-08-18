@@ -2,7 +2,7 @@ import {Command} from '@oclif/core'
 import {cwd} from 'node:process'
 
 export default class List extends Command {
-  static description = 'build "bag.inom" into machine code'
+  static description = 'build "bag.inam" into machine code'
 
   static examples = [
     `<%= config.bin %> <%= command.id %>
