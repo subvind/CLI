@@ -1,72 +1,12 @@
-inam
+Fair Source 5 (v0.9).
 ========
-a command line interface to inamlang...
+Source code to an Enterprise Resource Planning (ERP) system...
 
-part of ecosystem...
-- [fbd :: sync :: subvind/inamlang](https://github.com/subvind/inamlang)
-- [www :: top :: subvind/ucimecu](https://github.com/subvind/ucimecu)
-- [server :: backend :: subvind/isisis](https://github.com/subvind/isisis)
-- [client :: frontend :: subvind/autoide](https://github.com/subvind/autoide)
-- [cli :: npm :: subvind/inam](https://github.com/subvind/inam)
+Not open source. Not closed source. The Fair Source License allows everyone to see the source code and makes the software free to use for a limited number of users in your organization. It offers some of the benefits of open source while preserving the ability to charge for the software. https://fair.io
 
-terminology:
-- evelops are git repositories
-- many evelops go into a bag
-- bags are hosted on http servers
-- envelops have a main.inam file where a main function exists
+powered by subvind...
+- project homepage: https://subvind.com
+- purchase project: https://istrav.com
 
-quick start:
-```
-# begin
-$ npm install --gloab inam
-
-# first
-$ inam --help
-```
-
-init bag:
-```
-# jump to a new directory
-$ cd ~/inam
-$ mkdir inam_bags
-$ cd ~/inam/inam_bags
-
-# initialize project
-$ inam irst bag create
-```
-generates:
-```
-$ touch bag.inam
-<
-  :name:~ "something",
-  :template:~ "amqp",
-  :author:~ "someone",
-  :version:~ "1.0.0",
-  :description:~ "something that uses amqp",
-  :homepage:~ "https://subvind.com",
-  :license:~ "Fair Source 25 (v0.9).",
->
-```
-
-install a project into bag:
-```
-$ inam irst bag zipper --accept=stuff
-$ inam irst bag zipper --reject=messy
-```
-generates:
-```
-<
-  :name:~ "something",
-  :envelopes:~ <
-    :stuff:~ {
-      :template:~ "amgp"
-    },
-    :example:~ {
-      :template:~ "cli"
-    },
-    :demo:~ {
-      :template:~ "http"
-    }
-  >
->
-```
+system...
+- root project: https://github.com/subvind/subvind
